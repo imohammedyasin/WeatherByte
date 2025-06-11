@@ -1,0 +1,145 @@
+*{
+    font-size: inherit;
+    /* margin: 0%; */
+    font-family: Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #222;
+}
+
+
+
+.card{
+    width: 475px;
+    /* height: 200px; */
+    max-width: 500px;
+    padding: 45px;
+    color: #222;
+    margin:100px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: 
+    linear-gradient(135deg,hsla(250, 100%, 50%, 0.808),hsl(33, 100%, 50%));
+    border-radius: 25px;
+
+} 
+
+.search{
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    
+    justify-content: space-between;
+
+    
+}
+
+.search input{
+    width: 300px;
+    background: hsla(0, 0%, 100%, 0.553);    
+    border-radius: 25px;
+    color: hsl(0, 0%, 0%);
+    border: 1px solid #000000;
+    height: 10px;
+
+    padding: 25px 25px;
+    font-size: medium;
+    
+}
+.search button{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    background-color: transparent;
+    background-color: hsla(3, 64%, 89%, 0.432);
+    border-radius: 50%;
+    cursor: pointer;
+
+    
+}
+.search button img{
+    width: 16px;
+    height: 16px;
+    
+}
+
+.weather_icon{
+
+    width: 170px;
+    margin-top: 30px;
+
+
+}
+
+.weather h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.weather h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+.details
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 10px;
+    margin-right:100px
+
+
+}
+
+
+
+.col{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: left;
+     /* margin-left:100px */
+}
+.col img{
+    margin-left: 75px;
+    width: 75px;
+    margin-right: 10px;
+}
+#wind_speed{
+    display: flex;
+}
+.humidity,.wind
+{
+    font-size: 15px;
+    margin-top: -2%;
+    
+
+}
+
+
+.weather{
+    display:none;
+    
+}
+
+
+.error{
+    color: rgba(255, 253, 253, 0.585);
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+}
