@@ -144,3 +144,11 @@ body{
     display: none;
 }
 
+.copyright {
+    color: rgba(255, 255, 255, 0.678);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    /* font-family: Arial, sans-serif; */
+    padding: 15px 0;
+}
