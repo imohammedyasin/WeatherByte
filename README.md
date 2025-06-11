@@ -58,4 +58,4 @@ const apiKey = "YOUR_API_KEY_HERE";
 
 ## ✍️ Author
 
-Made with 💻 by [Your Name Here]
+Made with 💻 by Shaik Mohammed Yasin
